@@ -1,0 +1,50 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/pidan
+/pidan.exe
+
+# Test binary
+*.test
+
+# Output of go coverage
+*.out
+coverage.txt
+
+# Go workspace
+go.work
+go.work.sum
+
+# Environment & secrets
+.env
+.env.local
+*.pem
+*.key
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / dist
+dist/
+build/
+bin/
+
+# Logs
+*.log
+
+# Local agent/data dirs
+.data/
+.trae-cn/
+.trae/
+.pidan/
